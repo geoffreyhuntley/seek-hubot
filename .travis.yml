@@ -4,7 +4,7 @@ node_js:
 install:
   - "sudo pip install awsebcli"
 after_success:
-  - eb --help
+  - eb init seek-bot -p "64bit Amazon Linux 2014.09 v1.0.9 running Node.js"
   # - wget "https://s3.amazonaws.com/elasticbeanstalk/cli/AWS-ElasticBeanstalk-CLI-2.6.4.zip"
   # - unzip "AWS-ElasticBeanstalk-CLI-2.6.4.zip"
   # - AWS-ElasticBeanstalk-CLI-2.6.4/AWSDevTools/Linux/AWSDevTools-RepositorySetup.sh
