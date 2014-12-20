@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "0.10"
 install:
-  - "pip install awsebcli"
+  - "sudo pip install awsebcli"
 after_success:
   - eb --help
   # - wget "https://s3.amazonaws.com/elasticbeanstalk/cli/AWS-ElasticBeanstalk-CLI-2.6.4.zip"
