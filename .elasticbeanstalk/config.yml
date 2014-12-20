@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: production
+global:
+  application_name: seek-hubot
+  default_ec2_keyname: developers
+  default_platform: 64bit Amazon Linux 2014.09 v1.0.9 running Node.js
+  default_region: ap-southeast-2
+  profile: null
+  sc: git

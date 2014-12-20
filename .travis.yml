@@ -4,6 +4,5 @@ node_js:
 install:
   - "sudo pip install awsebcli"
 after_success:
-  - eb init $APPLICATION_NAME
-  - echo -e "7\n"
+  - eb init
   - eb deploy
