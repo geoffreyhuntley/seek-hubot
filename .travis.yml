@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "0.10"
 after_success:
-  - wget "https://s3.amazonaws.com/elasticbeanstalk/cli/AWS-ElasticBeanstalk-CLI-2.6.2.zip"
+  - wget "https://s3.amazonaws.com/elasticbeanstalk/cli/AWS-ElasticBeanstalk-CLI-2.6.4.zip"
   - unzip "AWS-ElasticBeanstalk-CLI-2.6.4.zip"
   - AWS-ElasticBeanstalk-CLI-2.6.4/AWSDevTools/Linux/AWSDevTools-RepositorySetup.sh
   - mkdir .elasticbeanstalk
