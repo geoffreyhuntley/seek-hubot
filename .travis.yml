@@ -16,4 +16,4 @@ after_success:
   - cat ~/.elasticbeanstalk/aws_credential_file
   - echo "ap-southeast-2" | git aws.config
   - echo -e "$AWS_ACCESS_KEY_ID\n$AWS_SECRET_ACCESS_KEY\n1\n\n\n1\n53\n2\nN\n1\n" | AWS-ElasticBeanstalk-CLI-2.6.4/eb/linux/python2.7/eb init
-  - git aws.push
+  - eb deploy
