@@ -2,18 +2,18 @@ language: node_js
 node_js:
   - "0.10"
 after_success:
-	- wget "https://s3.amazonaws.com/elasticbeanstalk/cli/AWS-ElasticBeanstalk-CLI-2.6.2.zip"
-	- unzip "AWS-ElasticBeanstalk-CLI-2.6.4.zip"
-	- AWS-ElasticBeanstalk-CLI-2.6.4/AWSDevTools/Linux/AWSDevTools-RepositorySetup.sh
-	- mkdir .elasticbeanstalk
-	- sudo echo "[global]" >> .elasticbeanstalk/config
-	- sudo echo "AwsCredentialFile=/Users/travis/.elasticbeanstalk/aws_credential_file" >> .elasticbeanstalk/config
-	- sudo echo "ApplicationName=seek-hubot" >> .elasticbeanstalk/config
-	- sudo echo "DevToolsEndpoint=git.elasticbeanstalk.ap-southeast-2.amazonaws.com" >> .elasticbeanstalk/config
-	- sudo echo "EnvironmentName=production" >> .elasticbeanstalk/config
-	- sudo echo "Region=ap-southeast-2" >> .elasticbeanstalk/config
-	- cat .elasticbeanstalk/confi
-	- cat ~/.elasticbeanstalk/aws_credential_file
-	- echo "ap-southeast-2" | git aws.config
-	- echo -e "$AWS_ACCESS_KEY_ID\n$AWS_SECRET_ACCESS_KEY\n1\n\n\n1\n53\n2\nN\n1\n" | AWS-ElasticBeanstalk-CLI-2.6.4/eb/linux/python2.7/eb init
-	- git aws.push
+  - wget "https://s3.amazonaws.com/elasticbeanstalk/cli/AWS-ElasticBeanstalk-CLI-2.6.2.zip"
+  - unzip "AWS-ElasticBeanstalk-CLI-2.6.4.zip"
+  - AWS-ElasticBeanstalk-CLI-2.6.4/AWSDevTools/Linux/AWSDevTools-RepositorySetup.sh
+  - mkdir .elasticbeanstalk
+  - sudo echo "[global]" >> .elasticbeanstalk/config
+  - sudo echo "AwsCredentialFile=/Users/travis/.elasticbeanstalk/aws_credential_file" >> .elasticbeanstalk/config
+  - sudo echo "ApplicationName=seek-hubot" >> .elasticbeanstalk/config
+  - sudo echo "DevToolsEndpoint=git.elasticbeanstalk.ap-southeast-2.amazonaws.com" >> .elasticbeanstalk/config
+  - sudo echo "EnvironmentName=production" >> .elasticbeanstalk/config
+  - sudo echo "Region=ap-southeast-2" >> .elasticbeanstalk/config
+  - cat .elasticbeanstalk/confi
+  - cat ~/.elasticbeanstalk/aws_credential_file
+  - echo "ap-southeast-2" | git aws.config
+  - echo -e "$AWS_ACCESS_KEY_ID\n$AWS_SECRET_ACCESS_KEY\n1\n\n\n1\n53\n2\nN\n1\n" | AWS-ElasticBeanstalk-CLI-2.6.4/eb/linux/python2.7/eb init
+  - git aws.push
