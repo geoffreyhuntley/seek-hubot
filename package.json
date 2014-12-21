@@ -5,6 +5,7 @@
   "author": "tbenade@seek.com.au",
   "description": "A helpul robotic fellow ready to be commanded",
   "dependencies": {
+    "cheerio": "^0.18.0",
     "hubot": "^2.10.0",
     "hubot-darksky": "^1.0.2",
     "hubot-devops-reactions": "^1.0.2",
