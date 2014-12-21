@@ -22,8 +22,7 @@
     "hubot-slack": "^3.1.0",
     "hubot-thesimpsons": "^1.1.2",
     "hubot-victory": "^1.2.0",
-    "hubot-youtube": "^0.1.2",
-    "hubot-maps": "git+ssh://git@github.com:jacortinas/hubot-maps.git#master"
+    "hubot-youtube": "^0.1.2"
   },
   "engines": {
     "node": "0.10.x"
