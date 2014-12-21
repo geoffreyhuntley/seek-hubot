@@ -24,7 +24,8 @@
     "hubot-victory": "^1.2.0",
     "hubot-youtube": "^0.1.2",
     "jsdom": "^1.5.0",
-    "soupselect": "^0.2.0"
+    "soupselect": "^0.2.0",
+    "underscore": "^1.7.0"
   },
   "engines": {
     "node": "0.10.x"
