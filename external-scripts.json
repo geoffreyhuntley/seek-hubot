@@ -10,5 +10,6 @@
   "hubot-darksky",
   "hubot-plusplus",
   "hubot-thesimpsons",
-  "hubot-principles"
+  "hubot-principles",
+  "hubot-trivia-game"
 ]

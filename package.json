@@ -23,6 +23,7 @@
     "hubot-thesimpsons": "^1.1.2",
     "hubot-victory": "^1.2.0",
     "hubot-youtube": "^0.1.2",
+    "hubot-trivia-game": "^1.0.1",
     "jsdom": "^1.5.0",
     "soupselect": "^0.2.0",
     "underscore": "^1.7.0"
