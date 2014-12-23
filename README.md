@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/SEEK-Jobs/seek-hubot.svg?branch=master)](https://travis-ci.org/SEEK-Jobs/seek-hubot)
-[![Code Climate](https://codeclimate.com/github/SEEK-Jobs/seek-hubot/badges/gpa.svg)](https://codeclimate.com/github/SEEK-Jobs/seek-hubot)
 
 # seekbot
 
