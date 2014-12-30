@@ -27,7 +27,8 @@
     "hubot-youtube": "^0.1.2",
     "jsdom": "^1.5.0",
     "soupselect": "^0.2.0",
-    "underscore": "^1.7.0"
+    "underscore": "^1.7.0",
+    "hubot-cricket": "^2.5.15"
   },
   "engines": {
     "node": "0.10.x"
