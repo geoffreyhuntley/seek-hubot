@@ -4,8 +4,8 @@ node_js:
 install:
 - sudo pip install awsebcli
 after_success:
-- eb init
-- eb deploy
+#- eb init
+#- eb deploy
 notifications:
   slack:
     secure: mZ5lKviZmowWz683dJkjCkennkUrnnXGIeheUaRjSJOe0owd6mSnn5eHBQ/hPAxE7EL+VEksbGiuRs4NsxAa6R+JhSJgYt7Mi2kEw8aafWmmxVvQFjLwFLiZwI8wx7Xl7ZPZrsKpN8CGP2Pow4N1QIqRdiyHcrPUL79VdiGVBe8=
